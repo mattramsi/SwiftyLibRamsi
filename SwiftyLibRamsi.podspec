@@ -17,7 +17,7 @@ Pod::Spec.new do |spec|
 
   spec.name         = "SwiftyLibRamsi"
   spec.version      = "0.0.1"
-  spec.summary      = "A short description of SwiftyLibRamsi."
+  spec.summary      = "Is a pod example made with Swift language."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,9 +25,10 @@ Pod::Spec.new do |spec|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   spec.description  = <<-DESC
+This CocoaPods library helps you perform calculation.
                    DESC
 
-  spec.homepage     = "http://EXAMPLE/SwiftyLibRamsi"
+  spec.homepage     = "https://github.com/mattramsi/SwiftyLibRamsi"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
@@ -79,7 +80,7 @@ Pod::Spec.new do |spec|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  spec.source       = { :git => "http://EXAMPLE/SwiftyLibRamsi.git", :tag => "#{spec.version}" }
+  spec.source       = { :git => "https://github.com/mattramsi/SwiftyLibRamsi.git", :tag => "#{spec.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
