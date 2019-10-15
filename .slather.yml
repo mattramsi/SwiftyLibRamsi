@@ -1,0 +1,6 @@
+coverage_service: cobertura_xml
+xcodeproj: SwiftyLibRamsi.xcodeproj
+scheme: SwiftyLibRamsi
+output_directory: reports
+ignore:
+  - SwiftyLibRamsiTests/*
