@@ -67,7 +67,7 @@ This CocoaPods library helps you perform calculation.
   spec.platform     = :ios
 
   #  When using multiple platforms
-  spec.ios.deployment_target = "9.0"
+  spec.ios.deployment_target = "12.1"
   spec.swift_versions = "4.0"
   # spec.osx.deployment_target = "10.7"
   # spec.watchos.deployment_target = "2.0"
