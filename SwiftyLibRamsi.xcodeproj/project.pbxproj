@@ -16,6 +16,7 @@
 		174535532356098C00A573EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174535522356098C00A573EC /* Assets.xcassets */; };
 		174535562356098C00A573EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 174535552356098C00A573EC /* Preview Assets.xcassets */; };
 		174535592356098C00A573EC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 174535572356098C00A573EC /* LaunchScreen.storyboard */; };
+		1745355F23560C1B00A573EC /* SwiftyLib.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1745355E23560C1B00A573EC /* SwiftyLib.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		174535552356098C00A573EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		174535582356098C00A573EC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1745355A2356098C00A573EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1745355E23560C1B00A573EC /* SwiftyLib.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyLib.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 			children = (
 				17453509235601BC00A573EC /* SwiftyLibRamsi.h */,
 				1745350A235601BC00A573EC /* Info.plist */,
+				1745355E23560C1B00A573EC /* SwiftyLib.swift */,
 			);
 			path = SwiftyLibRamsi;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				TargetAttributes = {
 					17453505235601BC00A573EC = {
 						CreatedOnToolsVersion = 11.1;
+						LastSwiftMigration = 1110;
 					};
 					1745350E235601BC00A573EC = {
 						CreatedOnToolsVersion = 11.1;
@@ -313,6 +317,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1745355F23560C1B00A573EC /* SwiftyLib.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +492,7 @@
 		1745351B235601BC00A573EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = FX38S5GM26;
@@ -503,6 +509,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.swiftylibramsi.SwiftyLibRamsi;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -511,6 +518,7 @@
 		1745351C235601BC00A573EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = FX38S5GM26;
@@ -535,6 +543,7 @@
 		1745351E235601BC00A573EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FX38S5GM26;
 				INFOPLIST_FILE = SwiftyLibRamsiTests/Info.plist;
@@ -553,6 +562,7 @@
 		1745351F235601BC00A573EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FX38S5GM26;
 				INFOPLIST_FILE = SwiftyLibRamsiTests/Info.plist;
